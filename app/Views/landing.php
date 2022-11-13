@@ -38,8 +38,10 @@
           </a>
 
           <div class="row">
-            <div class="col-sm-8 col-md-6 col-lg-9 col-xl-12 mx-auto max-w-450">
-
+            <div class="col-sm-8 col-md-6 col-lg-9 col-xl-12 mx-auto max-w-350">
+                <div class="d-md-block align-content-sm-center">
+                    <img height="53" src="public/assets/images/logo/nis.png" alt="NIS">
+                </div>
           <h2 class="h4 mb-2 text-gray-600 doc-section-title doc-anchor">
               Digital Clearance System
             </h2>

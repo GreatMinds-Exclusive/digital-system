@@ -141,12 +141,12 @@
 
               </li>
 
-              <!-- navigation toggler (mobile) -->
+              <!-- navigation toggler (mobile) 
               <li class="list-inline-item d-inline-block d-lg-none">
                 <button class="btn p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMainNav" aria-controls="navbarMainNav" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="fi fi-bars m-0"></i>
                 </button>
-              </li>
+              </li>-->
 
             </ul>
             <!-- /options -->
@@ -198,37 +198,39 @@
                       <path fill-rule="evenodd" d="M3 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3z"></path>
                       <path d="M13 3V2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path>
                     </svg>
-                    <span>My Travels</span>
+                    <span>My Account </span>
                     <span class="group-icon float-end">
                       <i class="fi fi-arrow-end"></i>
                       <i class="fi fi-arrow-down"></i>
                     </span>
                   </a>
 
-                  <ul class="nav flex-column">
+                  <ul class="nav flex-column active">
                     <li class="nav-item">
                       <a class="nav-link" href="clearance">
                         <span class="group-icon float-end">
                         </span>
+                        Profile
+                      </a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="splash">
+                        <span class="group-icon float-end"></span>
                         Clearance Form
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">
-                        <span class="group-icon float-end">
-                        </span>
-                        Travel profile
-                      </a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="splash">
-                        <span class="group-icon float-end">                        </span>
-                        Travel History
-                      </a>
-                    </li>
-                    
-                  </ul>
+                    </ul>
                 </li>
+                  <li class="nav-item ">
+                      <a class="nav-link" href="#">
+                  <svg class="text-gray-600 float-start" width="18px" height="18px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                      <path d="M3 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2z"></path>
+                      <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2zM1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"></path>
+                  </svg>
+                          <span>FAQs</span>
+                          <span class="group-icon float-end">
+                            <i class="fi fi-arrow-end"></i>
+                    </span></a>
                 </ul>
             </nav>
 

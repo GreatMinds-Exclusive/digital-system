@@ -7,8 +7,8 @@
               <h1 class="h4">Dashboard</h1>
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb small">
-                  <li class="breadcrumb-item"><a href="#">My Travels</a></li>
-                  <li class="breadcrumb-item text-muted active" aria-current="page">Clearance Form</li>
+                  <li class="breadcrumb-item"><a href="#">Travels</a></li>
+                  <li class="breadcrumb-item text-muted active" aria-current="page">Clearance Card</li>
                 </ol>
               </nav>
 

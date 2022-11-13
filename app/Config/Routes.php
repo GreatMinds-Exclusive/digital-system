@@ -41,7 +41,7 @@ $routes->add('clearance', 'Splash::clearance');
   return "This is for clearance";  
 }); */
 
-
+$routes->add('welcome', 'Splash::welcome');
 
 /**
  * --------------------------------------------------------------------

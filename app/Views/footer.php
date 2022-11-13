@@ -27,14 +27,14 @@
     </div>
 
 
-    <div class="text-rotate position-fixed end-0 top-50 mt-n7 z-index-5">
-      <a href="#" target="_blank" rel="noopener nofollow" class="btn btn-sm link-normal bg-white shadow rounded-xl rounded-end-0 mx-0 mt-1 pe-1 px-2">Feedback</a>
-    </div>
 
+      <!--      <div class="text-rotate position-fixed end-0 top-50 mt-n7 z-index-5">
+               <a href="#" target="_blank" rel="noopener nofollow" class="btn btn-sm link-normal bg-white shadow rounded-xl rounded-end-0 mx-0 mt-1 pe-1 px-2">Feedback</a>
+            </div>-->
 
-    <!-- Core javascripts -->
-    <script src="public/assets/js/core.min.js"></script>
-    <script src="public/assets/js/vendor_bundle.min.js"></script>
+      <!-- Core javascripts -->
+      <script src="public/assets/js/core.min.js"></script>
+      <script src="public/assets/js/vendor_bundle.min.js"></script>
 
 
   </body>

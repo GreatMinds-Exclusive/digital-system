@@ -4,11 +4,11 @@
           <div class="container">
             <header>
           
-              <h1 class="h4">Dashboard</h1>
+              <h1 class="h4">Start by completing your profile</h1>
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb small">
-                  <li class="breadcrumb-item"><a href="#">My Travels</a></li>
-                  <li class="breadcrumb-item text-muted active" aria-current="page">Travel history</li>
+                  <li class="breadcrumb-item"><a href="#">My Account</a></li>
+                  <li class="breadcrumb-item text-muted active" aria-current="page">Profile page</li>
                 </ol>
               </nav>
 
@@ -51,55 +51,39 @@
                       </svg>
                        <span class="ms-2">Nationality: </span>
                     </a>
+                    <a href="#" class="link-muted d-flex align-items-center me-3 mb-1">
+                      <svg width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="m12.002 0a5.988 5.988 0 1 1 0 11.975 5.988 5.988 0 0 1 0-11.975zm9.723 13.026h-.03l-4.527-2.242a.671.671 0 0 0 -.876.268 22.408 22.408 0 0 1 -4.306 5.217 22.407 22.407 0 0 1 -4.286-5.2.671.671 0 0 0 -.876-.269l-4.535 2.226h-.03a.671.671 0 0 0 -.248.902 28.85 28.85 0 0 0 4.55 5.933l-.002.001c.024.025.05.048.075.072.335.335.676.664 1.027.981.081.074.165.144.247.217.315.278.632.555.96.82.144.117.295.227.441.341.277.216.552.434.837.639.44.318.888.625 1.346.917a.963.963 0 0 0 1.007.017c.487-.312.962-.64 1.428-.98.068-.05.132-.103.2-.153.358-.266.713-.537 1.06-.82.234-.19.46-.39.688-.588.17-.147.34-.291.506-.442.295-.268.58-.545.864-.825.061-.06.127-.118.188-.179l-.004-.002a28.852 28.852 0 0 0 4.565-5.949.671.671 0 0 0 -.269-.902z"></path>
+                        </svg>
+                      <span class="ms-2">Gender:</span>
+                    </a>
+                    <a href="#" class="link-muted d-flex align-items-center me-3 mb-1">
+                      <svg width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="m1.84 4.15c-.993 0-1.8.787-1.84 1.772.003.058.004.116.012.172l1.19 7.597h6.384v-.43h.873c1.145 0 2.083-.567 2.083-1.793 0-1.227-.659-1.835-1.827-1.835-1.213 0-1.861.79-1.88 1.75h-1.25c.024-1.643 1.411-2.77 3.132-2.77 1.932 0 3.078 1.096 3.078 2.882 0 1.138-.869 1.895-1.563 2.196h6.079v-3.468l-2.619.873v-1.174l3.647-1.31h.203v5.08h5.256l1.19-7.598c.008-.057.01-.115.012-.172a1.842 1.842 0 0 0 -1.84-1.772zm-.615 9.696-.611 7.877a1.846 1.846 0 0 0 1.843 1.974h19.087a1.846 1.846 0 0 0 1.842-1.974l-.611-7.877h-5.233v5.233h-1.232v-5.233h-5.806c.635.277 1.443.908 1.44 2.255 0 1.95-1.457 2.98-3.224 2.98-1.53 0-3.176-.815-3.23-2.771h1.258c.028 1.214.955 1.758 1.972 1.758 1.168 0 1.976-.613 1.976-1.94 0-1.014-.554-1.888-2.238-1.888h-.873v-.394zm1.851-13.542c-1.02 0-1.846.826-1.846 1.846l.006 1.957a1.83 1.83 0 0 1 .61-.112h20.308c.217 0 .422.045.616.113v-1.958c0-1.02-.826-1.846-1.846-1.846zm3.078.922a.923.923 0 0 1 .922.924.923.923 0 0 1 -.922.921.923.923 0 0 1 -.924-.921.923.923 0 0 1 .924-.924zm11.692 0a.923.923 0 0 1 .924.924.923.923 0 0 1 -.924.921.923.923 0 0 1 -.922-.921.923.923 0 0 1 .922-.924z"></path>
+                        </svg>
+                       <span class="ms-2">DOB: </span>
+                    </a>
                   </div>
 
 
-                  <!-- skill boxes -->
+                  <!-- boxes -->
                   <div class="d-xl-flex">
 
-                    <!-- profile 
+                    <!-- my profile -->
                     <div class="border border-dashed p-3 rounded w-100 max-w-300 me-2 mb-3">
-
                       <div class="d-flex align-items-center">
-                        
-                        <div class="w-100 me-4 pe-3 border-end">
-                          <h4 class="mb-0">0</h4>
-                          <p class="mb-0 text-muted">Times updated</p>
-                        </div>
-
-                        <div class="w-100 me-4">
-                          <h4 class="mb-0">0</h4>
-                          <p class="mb-0 text-muted">age</p>
-                        </div>
-
-                      </div>
-
-                    </div> -->
-
-                    <!-- travel count -->
-                    <div class="border border-dashed p-3 rounded w-100 max-w-300 me-2 mb-3">
-
-                      <div class="d-flex align-items-center">
-                        <div class="w-100 me-4 pe-3 border-end">
-                          <h4 class="mb-0">0</h4>
-                          <p class="mb-0 text-muted">trips</p>
-                        </div>
-
+                          <div class="w-100 me-4 pe-3 border-end">
+                          <a href="#" data-bs-toggle="modal" data-bs-target="#modal-account-view" class="btn bg-warning text-white rounded px-2 py-1">View Profile</a>
+                          </div>
                         <div class="flex-none text-end">
-                          <a href="#" class="btn btn-sm btn-primary">Update profile</a>
+                          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseComplete" role="button" aria-expanded="false" aria-controls="collapseComplete">Complete</a>
                         </div>
 
                       </div>
 
-                    </div>
+                    </div> 
 
                   </div>
-
-                  <!-- completed profile 
-                  <h6>Completed profile (75%)</h6>
-                  <div class="progress" style="height:5px">
-                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div> -->
 
                 </div>
 
@@ -107,33 +91,65 @@
 
             </div>
 
-
             <!-- notifications -->
-            <div class="section p-xl-4">
-              
-              <h3 class="h5 mb-5">Travel History </h3>
+            <div class="collapse section p-xl-4" id="collapseComplete">
+              <h3 class="h5 mb-5">Personal data </h3>
                 
-                <table class="table table-striped">
-	<thead>
-		<tr>
-			<th scope="col">#</th>
-			<th scope="col">Port of Entry/Exit</th>
-			<th scope="col">Destination</th>
-			<th scope="col">Date</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th scope="row">1</th>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
+                <!-- tab: Complete Profile -->
+                <div class="card-body col-lg-12 row">
+                <div class="col-md-6">
+                <div class="mb-3 row">
+	               <label for="surname" class="col-sm-4 col-form-label">Surname:</label>
+	               <div class="col-sm-8">
+		              <input type="text" readonly class="form-control-plaintext" value="<?php echo "Surname"; ?>">
+	               </div>
+                </div>  
+                <div class="mb-3 row">
+	               <label for="surname" class="col-sm-4 col-form-label">Firstname:</label>
+	               <div class="col-sm-8">
+		              <input type="text" readonly class="form-control-plaintext" value="<?php echo "Firstname"; ?>">
+	               </div>
+                </div>
+                <div class="mb-3 row">
+	               <label for="surname" class="col-sm-4 col-form-label">Email:</label>
+	               <div class="col-sm-8">
+		              <input type="text" readonly class="form-control-plaintext" value="<?php echo "Email address"; ?>">
+	               </div>
+                </div>
                 
                 
-            </div>
+                    </div>
+                
+                    <div class="col-md-6">
+                <div class="mb-3 row">
+	               <label for="middlename" class="col-sm-4 col-form-label">Middlename</label>
+                    <div class="col-sm-8">
+                    <input type="text" class="form-control form-control-sm" placeholder="same on passport">
+                    </div>
+                </div>      
+                <div class="mb-3 row">
+	               <label for="middlename" class="col-sm-4 col-form-label">DOB: </label>
+                    <div class="col-sm-8">
+                    <input type="date" class="form-control form-control-sm" placeholder="">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="middlename" class="col-sm-4 col-form-label">Gender: </label>
+                    <div class="col-sm-8" style="padding-top:16px;">
+                <div class="form-check form-check-inline">
+	               <input class="form-check-input form-check-input-primary" type="radio" name="gender" id="inlineRadio1" value="male">
+	               <label class="form-check-label" for="inlineRadio1">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+	               <input class="form-check-input form-check-input-primary" type="radio" name="gender" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="female">Female</label>
+                </div>
+                        </div>
+                </div>
+                </div>
+                    
+                </div>
+            </div> 
 
           </div>
 
@@ -141,4 +157,58 @@
         <!-- /main -->
 
       </div>
+
+     <!-- Modal : View detail -->
+            <div class="modal fade" id="modal-account-view" tabindex="-1" aria-hidden="true">
+                  
+                  <table class="table table-hover">
+<!--
+	<thead>
+		<tr>
+			<th scope="col">#</th>
+			<th scope="col">First</th>
+			<th scope="col">Last</th>
+			<th scope="col">Handle</th>
+		</tr>
+	</thead>
+-->
+	<tbody>
+		<tr>
+			<td rowspan="4"><img src="public/assets/images/avatar.jpg" height="144" width="100" alt="..." /></td>
+			<td>Surname:</td>
+		</tr>
+        <tr>
+            <td>Firstname:</td>
+		</tr>
+        <tr>
+			<td>Middlename:</td>
+		</tr>
+        <tr>
+			<td>DOB:</td>
+		</tr>
+		<tr>
+			<td>Nationality:</td>
+            <td></td>
+		</tr>
+		<tr>
+			<td>Passport No.:</td>
+            <td></td>
+		</tr>
+        <tr>
+			<td>Gender:</td>
+            <td></td>
+		</tr><tr>
+			<td>Profession:</td>
+            <td></td>        
+		</tr><tr>
+			<td>Mobile No.:</td>
+            <td></td>        
+		</tr><tr>
+			<td>Address:</td>
+            <td></td>        
+		</tr>
+	</tbody>
+</table>
+            </div>
+<!-- end modal -->
       <!-- /content -->

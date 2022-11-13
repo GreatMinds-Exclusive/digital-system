@@ -15,5 +15,26 @@ class Splash extends BaseController
         echo view('apply');
         echo view('footer');
     }
-   //--------------------------------------------------------------------
+    
+    public function welcome()
+    {
+        echo view('heading');
+        echo view('welcome_back');
+        echo view('footing');
+    }
+    
+    public function dashboard()
+    {
+        echo view('head');
+        echo view('dash_admin');
+        echo view('foot');
+    }
+    
+    public function faqs()
+    {
+        echo view('frequents');
+        echo view('footer');
+    }
+
+        //--------------------------------------------------------------------
 }
