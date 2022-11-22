@@ -11,7 +11,6 @@
                   <li class="breadcrumb-item text-muted active" aria-current="page">Profile page</li>
                 </ol>
               </nav>
-
             </header>
 
             <!-- profile overview -->
@@ -72,11 +71,11 @@
                     <!-- my profile -->
                     <div class="border border-dashed p-3 rounded w-100 max-w-300 me-2 mb-3">
                       <div class="d-flex align-items-center">
-                          <div class="w-100 me-4 pe-3 border-end">
-                          <a href="#" data-bs-toggle="modal" data-bs-target="#modal-account-view" class="btn bg-warning text-white rounded px-2 py-1">View Profile</a>
+                          <div class="w-100 me-4 pe-3 ">
+                          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseComplete" role="button" aria-expanded="false" aria-controls="collapseComplete">Complete Profile</a>
                           </div>
                         <div class="flex-none text-end">
-                          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseComplete" role="button" aria-expanded="false" aria-controls="collapseComplete">Complete</a>
+                          <!--<a href="#" data-bs-toggle="modal" data-bs-target="#modal-account-view" class="btn bg-warning text-white rounded px-2 py-1">View Profile</a>-->
                         </div>
 
                       </div>
@@ -90,67 +89,97 @@
               </div>
 
             </div>
+              
+              
 
             <!-- notifications -->
             <div class="collapse section p-xl-4" id="collapseComplete">
               <h3 class="h5 mb-5">Personal data </h3>
                 
-                <!-- tab: Complete Profile -->
-                <div class="card-body col-lg-12 row">
-                <div class="col-md-6">
-                <div class="mb-3 row">
-	               <label for="surname" class="col-sm-4 col-form-label">Surname:</label>
-	               <div class="col-sm-8">
-		              <input type="text" readonly class="form-control-plaintext" value="<?php echo "Surname"; ?>">
-	               </div>
+                <form novalidate class="bs-validate row g-3">
+                <div class="col-md-4">
+	               <label for="surname" class="form-label">Surname:</label>
+		              <input type="text" readonly class="form-control" value="Surname">
                 </div>  
-                <div class="mb-3 row">
-	               <label for="surname" class="col-sm-4 col-form-label">Firstname:</label>
-	               <div class="col-sm-8">
-		              <input type="text" readonly class="form-control-plaintext" value="<?php echo "Firstname"; ?>">
-	               </div>
+                <div class="col-md-4">
+	               <label for="surname" class="form-label">Firstname:</label>
+		              <input type="text" readonly class="form-control" value="Firstname">
                 </div>
-                <div class="mb-3 row">
-	               <label for="surname" class="col-sm-4 col-form-label">Email:</label>
-	               <div class="col-sm-8">
-		              <input type="text" readonly class="form-control-plaintext" value="<?php echo "Email address"; ?>">
-	               </div>
+                <div class="col-md-4">
+	               <label for="surname" class="form-label">Email:</label>
+		              <input type="text" readonly class="form-control" value="user@mail.com">
                 </div>
-                
-                
-                    </div>
-                
-                    <div class="col-md-6">
-                <div class="mb-3 row">
-	               <label for="middlename" class="col-sm-4 col-form-label">Middlename</label>
-                    <div class="col-sm-8">
-                    <input type="text" class="form-control form-control-sm" placeholder="same on passport">
-                    </div>
-                </div>      
-                <div class="mb-3 row">
-	               <label for="middlename" class="col-sm-4 col-form-label">DOB: </label>
-                    <div class="col-sm-8">
-                    <input type="date" class="form-control form-control-sm" placeholder="">
-                    </div>
-                </div>
-                <div class="mb-3 row">
-                    <label for="middlename" class="col-sm-4 col-form-label">Gender: </label>
-                    <div class="col-sm-8" style="padding-top:16px;">
-                <div class="form-check form-check-inline">
-	               <input class="form-check-input form-check-input-primary" type="radio" name="gender" id="inlineRadio1" value="male">
-	               <label class="form-check-label" for="inlineRadio1">Male</label>
-                </div>
-                <div class="form-check form-check-inline">
-	               <input class="form-check-input form-check-input-primary" type="radio" name="gender" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="female">Female</label>
-                </div>
-                        </div>
-                </div>
-                </div>
-                    
-                </div>
-            </div> 
-
+    <div class="col-md-4">
+		<label for="middlename" class="form-label">Middlename</label>
+		<input type="text" class="form-control" value="" required>
+	</div>
+	<div class="col-md-4">
+		<label for="DOB" class="form-label">Date of birth</label>
+		<input type="date" class="form-control" value="" required>
+	</div>
+	<div class="col-md-4">
+		<label for="validationCustomUsername" class="form-label">Gender</label>
+		<select class="form-select" required>
+			<option selected disabled value="">Select...</option>
+			<option>Male</option>
+			<option>Female</option>
+		</select>
+	</div>
+	<div class="col-md-6">
+		<label for="validationCustom03" class="form-label">Mobile Number</label>
+		<input type="text" class="form-control" placeholder="countrycode+number" required>
+	</div>
+	<div class="col-md-6">
+		<label for="validationCustom04" class="form-label">Nationality</label>
+		<select class="form-select" required>
+			<option selected disabled value="">Select...</option>
+			<option>...</option>
+		</select>
+	</div>
+    <div class="col-md-6">
+		<label for="ppt_no" class="form-label">Passport Number</label>
+		<input type="text" class="form-control" value="" required>
+	</div>
+    <div class="col-md-3">
+		<label for="issue" class="form-label">Issue date</label>
+		<input type="date" class="form-control" value="" required>
+	</div>
+    <div class="col-md-3">
+		<label for="expiry" class="form-label">Expiry date</label>
+		<input type="date" class="form-control" value="" required>
+	</div>
+    <div class="col-md-12">
+		<label for="address" class="form-label">Residential address</label>
+        <textarea type="text" cols="5" class="form-control" placeholder="Address in country of residence" value="" required></textarea>
+	</div>
+    <div class="col-md-4">
+		<label for="city" class="form-label">City</label>
+		<input type="text" class="form-control" value="" required>
+	</div>
+    <div class="col-md-4">
+		<label for="state" class="form-label">State</label>
+		<input type="text" class="form-control" value="" required>
+	</div>
+    <div class="col-md-4">
+		<label for="country" class="form-label">Country</label>
+		<input type="text" class="form-control" value="" required>
+	</div>
+	<div class="col-12">
+		<div class="form-check">
+			<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+			<label class="form-check-label" for="invalidCheck">
+				I agree that the information here are correct and up to date
+			</label>
+			<div class="invalid-feedback">
+				Please tick the consent to submit your form.
+			</div>
+		</div>
+	</div>
+	<div class="col-12">
+		<button class="btn btn-primary" type="submit">Submit form</button>
+	</div>
+</form>
+              </div>
           </div>
 
         </main>
@@ -158,57 +187,4 @@
 
       </div>
 
-     <!-- Modal : View detail -->
-            <div class="modal fade" id="modal-account-view" tabindex="-1" aria-hidden="true">
-                  
-                  <table class="table table-hover">
-<!--
-	<thead>
-		<tr>
-			<th scope="col">#</th>
-			<th scope="col">First</th>
-			<th scope="col">Last</th>
-			<th scope="col">Handle</th>
-		</tr>
-	</thead>
--->
-	<tbody>
-		<tr>
-			<td rowspan="4"><img src="public/assets/images/avatar.jpg" height="144" width="100" alt="..." /></td>
-			<td>Surname:</td>
-		</tr>
-        <tr>
-            <td>Firstname:</td>
-		</tr>
-        <tr>
-			<td>Middlename:</td>
-		</tr>
-        <tr>
-			<td>DOB:</td>
-		</tr>
-		<tr>
-			<td>Nationality:</td>
-            <td></td>
-		</tr>
-		<tr>
-			<td>Passport No.:</td>
-            <td></td>
-		</tr>
-        <tr>
-			<td>Gender:</td>
-            <td></td>
-		</tr><tr>
-			<td>Profession:</td>
-            <td></td>        
-		</tr><tr>
-			<td>Mobile No.:</td>
-            <td></td>        
-		</tr><tr>
-			<td>Address:</td>
-            <td></td>        
-		</tr>
-	</tbody>
-</table>
-            </div>
-<!-- end modal -->
       <!-- /content -->

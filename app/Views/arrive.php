@@ -8,7 +8,7 @@
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb small">
                   <li class="breadcrumb-item"><a href="#">Travels</a></li>
-                  <li class="breadcrumb-item text-muted active" aria-current="page">Departure Card</li>
+                  <li class="breadcrumb-item text-muted active" aria-current="page">Arrival Card</li>
                 </ol>
               </nav>
 
@@ -17,7 +17,7 @@
             <!-- profile overview -->
             <div class="section p-xl-4">
                 <ol class="process-steps process-steps-primary text-muted mb-3">
-	               <li class="process-step-item text-success active">Profile</li>
+	               <li class="process-step-item text-warning active">Profile</li>
 	               <li class="process-step-item text-primary nav-item active">
                       <a href="#travel">Travel Details</a>
                     </li>
@@ -32,19 +32,19 @@
                 <header class="h5 mb-2">Travel Details</header>
                 <div class="col-md-12">
                     <div class="col-md-4">
-	               <label for="surname" class="form-label">Date of Departure:</label>
+	               <label for="surname" class="form-label">Date of Arrival:</label>
 		              <input type="date" class="form-control" value="">
                 </div>
                     <div class="col-md-8"></div>
                 </div>
                 <div class="col-md-6">
-	               <label for="destination" class="form-label">Final Destination:</label>
+	               <label for="destination" class="form-label">Take off Country:</label>
 		              <select type="text" class="form-control" value="">
                           <option selected disabled value="">Select country</option>
                     </select>
                 </div>  
                 <div class="col-md-6">
-	               <label for="port" class="form-label">Port of Exit:</label>
+	               <label for="port" class="form-label">Port of Entry:</label>
 		              <select type="text" class="form-control" value="">
                           <option selected disabled value="">Select airport</option>
                     </select>
@@ -58,9 +58,9 @@
 		<input type="text" class="form-control" value="" required>
 	</div>
 	
-    <div class="col-md-8">
-		<label for="address" class="form-label">Destination Address:</label>
-        <textarea type="text" cols="2" class="form-control" placeholder="Address in final destination" value="" required></textarea>
+    <div class="col-md-12">
+		<label for="address" class="form-label">Address in Nigera:</label>
+        <textarea type="text" cols="2" class="form-control" placeholder="Host Address in Nigeria" value="" required></textarea>
 	</div>
     <div class="col-md-4">
 		<label for="city" class="form-label">City:</label>
@@ -70,12 +70,9 @@
 		<label for="state" class="form-label">State:</label>
 		<input type="text" class="form-control" value="" required>
 	</div>
+    
     <div class="col-md-4">
-		<label for="country" class="form-label">Country:</label>
-		<input type="text" class="form-control" value="" required>
-	</div>
-    <div class="col-md-4">
-		<label for="country" class="form-label">Destination Mobile Number:</label>
+		<label for="country" class="form-label">Host Mobile Number:</label>
 		<input type="text" class="form-control" value="" required>
 	</div>
 

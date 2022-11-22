@@ -9,10 +9,17 @@ class Splash extends BaseController
 		echo view('footer');
 	}
 	
-	public function clearance() 
+	public function departure() 
     {
         echo view('header');
         echo view('apply');
+        echo view('footer');
+    }
+    
+    public function arrival() 
+    {
+        echo view('header');
+        echo view('arrive');
         echo view('footer');
     }
     
@@ -34,6 +41,11 @@ class Splash extends BaseController
     {
         echo view('frequents');
         echo view('footer');
+    }
+    
+    public function signup()
+    {
+        return view ('sign');
     }
 
         //--------------------------------------------------------------------

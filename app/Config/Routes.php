@@ -33,7 +33,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 
 
-$routes->add('clearance', 'Splash::clearance');
+$routes->add('departure', 'Splash::departure');
+$routes->add('arrival', 'Splash::arrival');
 //$routes->add('splash/(:any)', 'Splash::clearance/$1');
 
 
@@ -42,6 +43,8 @@ $routes->add('clearance', 'Splash::clearance');
 }); */
 
 $routes->add('welcome', 'Splash::welcome');
+
+$routes->add('faqs', 'Splash::faqs');
 
 /**
  * --------------------------------------------------------------------

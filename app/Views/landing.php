@@ -34,7 +34,7 @@
             <svg class="rtl-flip" height="18px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
               <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"></path>
             </svg>
-            <span>back to home</span>
+            <span></span>
           </a>
 
           <div class="row">
@@ -66,7 +66,7 @@
             <div class="tab-pane pt-5 fade show active" id="nav-tab-1-preview" aria-labelledby="nav-tab-1-preview-link" role="tabpanel">
               <!--<div class="col-sm-8 col-md-6 col-lg-9 col-xl-12 mx-auto max-w-450"> -->
               
-              <form novalidate class="bs-validate" method="POST" action="#">
+              <form method="POST" action="splash" name="signup">
 
                 <div class="row g-3 mb-3">
                   <div class="col-xl-6">
@@ -91,7 +91,7 @@
 
                   <div class="input-group-over">
                     <div class="form-floating mb-3">
-                      <input required placeholder="Password" id="account_password" type="password" class="form-control">
+                      <input required placeholder="Password" type="password" class="form-control">
                       <label for="account_password">Password</label>
                     </div>
 
@@ -104,7 +104,7 @@
                   </div>
                   <!-- submit button -->
                 <div class="d-grid mb-3">
-                  <button type="submit" class="btn btn-danger">
+                  <button type="submit" class="btn btn-danger" value="signup">
                     <span>Sign up</span>
                     <svg class="rtl-flip" width="18px" height="18px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
                       <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
@@ -121,17 +121,17 @@
     
           <div class="tab-pane pt-5 fade" id="nav-tab-1-html" aria-labelledby="nav-tab-1-html-link" role="tabpanel">
 
-              <form novalidate class="bs-validate" method="POST" action="#">
+              <form method="POST" action="welcome" name="signin">
 
                 <!-- email address -->
                 <div class="form-floating mb-3">
-                  <input required type="email" class="form-control" id="account_email" placeholder="Email address">
+                  <input required type="email" class="form-control" placeholder="Email address">
                   <label for="account_email">Email address</label>
                 </div>
 
                 <!-- password -->
                 <div class="form-floating mb-3">
-                  <input required type="password" class="form-control" id="account_passwd" placeholder="Password" autocomplete="new-password">
+                  <input required type="password" class="form-control" placeholder="Password" autocomplete="new-password">
                   <label for="account_passwd">Password</label>
                   
                   <!-- forgot

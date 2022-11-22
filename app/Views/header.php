@@ -133,7 +133,7 @@
                   </a>
                   <div class="dropdown-divider mb-0 mt-3"></div>
 
-                  <a href="#" class="prefix-icon-ignore dropdown-footer dropdown-custom-ignore fw-medium py-3 px-4">
+                  <a href="<?= base_url(); ?>" class="prefix-icon-ignore dropdown-footer dropdown-custom-ignore fw-medium py-3 px-4">
                     <i class="fi fi-power float-start"></i>
                     Log Out
                   </a>
@@ -207,22 +207,22 @@
 
                   <ul class="nav flex-column active">
                     <li class="nav-item">
-                      <a class="nav-link" href="clearance">
+                      <a class="nav-link" href="splash">
                         <span class="group-icon float-end">
                         </span>
                         Profile
                       </a>
                     </li>
-                    <li class="nav-item ">
+                    <!--<li class="nav-item ">
                       <a class="nav-link" href="splash">
                         <span class="group-icon float-end"></span>
                         Clearance Form
                       </a>
-                    </li>
+                    </li>-->
                     </ul>
                 </li>
                   <li class="nav-item ">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="faqs">
                   <svg class="text-gray-600 float-start" width="18px" height="18px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
                       <path d="M3 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2z"></path>
                       <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2zM1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"></path>
@@ -231,12 +231,12 @@
                           <span class="group-icon float-end">
                             <i class="fi fi-arrow-end"></i>
                     </span></a>
+                  </li>
                 </ul>
             </nav>
 
           </div>
           <!-- /sidebar : navigation -->
-
 
           <!-- sidebar : footer -->
           <div class="d-flex align-self-baseline w-100 py-3 px-3 border-top border-light small">
